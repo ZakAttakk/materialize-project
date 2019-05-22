@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+      <link rel="stylesheet" href="styles.css" />
+        
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      
+      <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+      
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+    <body class="grey lighten-5">
+      
+      <div class="navbar-fixed">
+        
+        <!--<div class="hide-on-med-and-down">-->
+        <!--  <nav class="z-depth-1 blue accent-1 center-align largeNav">-->
+        <!--    &ensp;<a href="#responsiveGrid">Responsive Grid</a>&ensp;-->
+        <!--    |&ensp;Buttons&ensp;-->
+        <!--    |&ensp;Cards&ensp;-->
+        <!--    |&ensp;Drop Downs&ensp;-->
+        <!--    |&ensp;Material Boxes&ensp;-->
+        <!--    |&ensp;Modals&ensp;-->
+        <!--  </nav>-->
+        <!--</div>-->
+        
+      <div class="hide-on-small-only">
+          <nav class="z-depth-1 blue accent-1 center-align navExtras">
+            &ensp;<a href="#responsiveGrid">Responsive Grid</a>&ensp;
+            |&ensp;<a href="#buttons">Buttons</a>&ensp;
+            |&ensp;<a href="#cards">Cards</a>&ensp;
+            |&ensp;<a href="#dropsDowns">Drop Downs</a>&ensp;
+            |&ensp;<a href="#materialBoxes">Material Boxes</a>&ensp;
+            |&ensp;<a href="#modals">Modals</a>&ensp;
+          <br>
+          </nav>
+      </div>
+      
+      <div class="hide-on-med-and-up">
+          <a href="#" data-target="slide-out" class="sidenav-trigger"><i id="mobileNavIcon" class="small material-icons icon-white">menu</i></a>
+        <nav class="z-depth-1 blue accent-1 center-align">
+          </nav>
+      </div>
+      
+      </div> 
+      <!--end of navbar-fixed class-->
+      <!--start of sidenav contents-->
+      <div id="slide-out" class="sidenav flow-text sideNavExtras">
+        <!--<div class="user-view">-->
+          <a class="noColor sidenavItem" href="#responsiveGrid">Responsive Grid</a><br>
+          <a class="noColor sidenavItem" href="#buttons">Buttons</a><br>
+          <a class="noColor sidenavItem" href="#cards">Cards</a><br>
+          <a class="noColor sidenavItem" href="#dropsDowns">Drop Downs</a><br>
+          <a class="noColor sidenavItem" href="#materialBoxes">Material Boxes</a><br>
+          <a class="noColor sidenavItem" href="#modals">Modals</a><br>
+        <!--</div>-->
+
+      </div>
+  
+      </div>
+        
+        
+      <div class="row">
+        <div class="col xl2 l1 m1"></div>
+          <div class="col xl8 l10 m10 s12 blue lighten-5 z-depth-1">
+            
+            <h2 class="topTitle center-align">Design Manifesto</h2>
+            
+            <div class="center-align">
+            <img id="florish" src="florish.svg" class="center-align">
+            </div>
+            <h4 id="responsiveGrid" class="title">Responsive Grid</h4>
+            
+            
+            <p class="flow-text">This content will span <b>10 out of 12</b> columns when your window has a "medium" or "large" width.  In other words, this content will span 10 out of 12 columns if your window is:
+              <ul class="browser-default">
+                <li class="flow-text">Medium&mdash;meaning greater than 600px and less than or equal to 992px. (This generally means tablet-width.)</li>
+                <li class="flow-text">Large&mdash;meaning greater than 992px and less than or equal to 1200px. (This generally means laptop or desktop-width.)</li>
+              </ul>
+            </p>
+            <div class="divider grey lighten-5"></div>
+            <div class="divider grey lighten-5"></div>
+            <p class="flow-text">But what if you're reading this content on one of those ultra-wide desktop monitors?  Good news!  This content will span only <b>8 out of 12</b> columns when your window is very wide (greater than 1200px).
+            </p>
+            <div class="divider grey lighten-5"></div>
+            <div class="divider grey lighten-5"></div>
+            <p class="flow-text">And what about mobile?  Even better news!  This content will span all <b>12 out of 12</b> columns when your window is narrow (less than 600px).
+            </p>
+            <div class="divider grey lighten-5"></div>
+            <div class="divider grey lighten-5"></div>
+            <p class="flow-text">Test this <i>responsive design</i> by adjusting the width of your browser window!</p>
+            <br>
+            <h4 id="buttons" class="title">Buttons</h4>
+            
+            <p class="flow-text">
+              <a class="waves-effect waves-light btn blue accent-1 buttonExtras"><i class="material-icons left">landscape</i>Buttons</a>
+              <a class="waves-effect waves-light btn blue accent-1 buttonExtras"><i class="material-icons left">group_work</i>Are</a>
+              <a class="waves-effect waves-light btn-large blue accent-1 buttonExtras"><i class="material-icons right">graphic_eq</i>Fun!</a>
+            </p>
+            
+            <br>
+            <h4 id="cards" class="title">Cards</h4>
+            <br>
+            
+            <div class="row">
+              <div class="col m1 l1"></div>
+              <div class="col s12 m5 l5">
+                <div class="card blue lighten-4">
+                  <div class="card-content">
+                    <span class="card-title">My First Card</span>
+                    I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.
+                  </div>
+                  <div class="card-action center-align">
+                    <a class="white-text" href="#">This is a link</a>
+                    <a class="white-text" href="#">This is a link</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col s12 m5 l5">
+                <div class="card blue lighten-4">
+                  <div class="card-content">
+                    <span class="card-title">My Second Card</span>
+                    I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.
+                  </div>
+                  <div class="card-action center-align">
+                    <a class="white-text" href="#">This is a link</a>
+                    <a class="white-text" href="#">This is a link</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col m1 l1"></div>
+              
+            </div>
+            
+            <br>
+            <h4 id="dropsDowns" class="title">Drop Downs</h4><br>
+              <p>
+              <!-- Dropdown Trigger -->
+              <a class='dropdown-trigger btn-large blue accent-1' href='#' data-target='dropdown1'>Favorite Number?</a>
+              </p>
+            
+              <!-- Dropdown Structure -->
+              <ul id='dropdown1' class='dropdown-content'>
+                <li><a class="black-text" href="#!">One</a></li>
+                <li><a class="black-text" href="#!">Two</a></li>
+                <li><a class="black-text" href="#!">Three</a></li>
+                <li><a class="black-text" href="#!">Four</a></li>
+                <li><a class="black-text" href="#!">Five</a></li>
+              </ul>
+            
+            <br>
+            <h4 id="materialBoxes" class="title">Material Boxes</h4><br>
+            <div class="row">
+              <div class="col m3 l3"></div>
+              <div class="col s12 m6 l6">
+                <img class="materialboxed" width="100%" src="almond-blossom.jpg">
+              </div>
+              <div class="col m3 l3"></div>
+            </div>
+          
+          <br>
+            <h4 id="modals" class="title">Modals</h4><br>
+            
+              <!-- Modal Trigger -->
+              <p>
+                <a class="waves-effect waves-light btn-large blue accent-1 modal-trigger" href="#modal1">Click Me!</a>
+              </p>
+              
+              
+                <!-- Modal Structure -->
+                <div id="modal1" class="modal">
+                  <div class="modal-content">
+                    <h4>Hurray!</h4>
+                    <p>You won the game.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Winning!</a>
+                  </div>
+                </div>
+          
+          
+            <br><br>
+          </div>
+          
+          <div class="col xl2 l1 m1"></div>
+        </div>
+        
+      
+        <footer class="page-footer z-depth-1 blue accent-1">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+          </footer>
+        
+
+        <script type="text/javascript" src="scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+        
+        
+    </body>
+</html>

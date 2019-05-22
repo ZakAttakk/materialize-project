@@ -1,0 +1,80 @@
+p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+
+.mainContent {
+    margin-top: 15px;
+}
+
+/*.mediumNav {*/
+/*    font-size: 13.5pt;*/
+/*    height: 45px;*/
+/*    line-height: 45px;*/
+/*}*/
+
+/*.largeNav {*/
+/*    font-size: 14pt;*/
+/*    height: 53px;*/
+/*    line-height: 50px;*/
+/*}*/
+
+.navExtras {
+  font-size: 11.5pt;
+}
+
+
+.title {
+    text-shadow: 4px 4px 4px #c4d1de;
+    
+}
+
+.topTitle{
+    text-shadow: 4px 4px 4px #c4d1de;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+#florish {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+#mobileNavIcon {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 500;
+    text-decoration: none;
+}
+
+.noLinkColor {
+  color:inherit;
+  text-decoration: none;
+}
+ 
+.icon-white {
+  color: white;
+}
+
+.sideNavExtras {
+  padding: 20px;
+  line-height: 40px;
+}
+
+.buttonExtras {
+  margin: 10px;
+}
+ 
